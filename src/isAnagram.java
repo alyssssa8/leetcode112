@@ -1,5 +1,5 @@
 import java.util.Arrays;
-tttt
+
 public class isAnagram {
 
     public static void main(String[] args) {
