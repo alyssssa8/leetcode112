@@ -6,8 +6,8 @@ public class twoSum {
         int target = 9;
         int[] nums = {2,7,11,15};
         twoSum(nums, target);
-
     }
+
 
     public  static int[] twoSum(int[] nums, int target){
         int [] result = new int[2];
@@ -18,7 +18,7 @@ public class twoSum {
                     result[0] = map.get(target - nums[i]);
                     return result;
             }
-            map.put(nums[i], i);
+            map.put(nums[i], i);  // key and value
         }
         return result;
     }
