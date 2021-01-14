@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class isAnagram {
+public class isAnagram242 {
 
     public static void main(String[] args) {
         String word1 = "abcde";
@@ -26,7 +26,7 @@ public class isAnagram {
 
     public static void isAnagram2(String str1, String str2) {
 //        remove whitespace
-        String s1 = str1.replaceAll("\\s", ""); ///replaces all occurrences of "a" to "b"
+        String s1 = str1.replaceAll("\\s", ""); //replaces all occurrences of "a" to "b"
         String s2 = str2.replaceAll("\\s", "");  //single whitespace character
         boolean status = true;
         if (s1.length() != s2.length()) {
