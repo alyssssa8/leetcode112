@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class note {
@@ -24,11 +26,20 @@ public class note {
 //        int array [] = new int[num];
 //
 //        System.out.printf("Factorial of %d = %d", num, factorial);
+
+
 //        map:
 //          Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 //          map.put(nums[i], i);  // key and value
 //          map.containsKey(target - nums[i])
+//        List:
+//             List<String> list = new ArrayList<>();
+//             list.add(String.valueOf(i));
+
 
 //        Integer.MIN_VALUE
+
+//        String.valueOf(i)
+//              Returns the string representation of the int argument.
     }
 }
