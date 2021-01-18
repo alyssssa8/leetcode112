@@ -20,6 +20,7 @@ public class FizzBuzz412 {
                 list.add(String.valueOf(i));
             }
         }
+
         return list;
     }
 }

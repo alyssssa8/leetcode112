@@ -37,6 +37,13 @@ public class note {
 //             list.add(String.valueOf(i));
 
 
+//        queue
+//                Queue<Integer> q = new LinkedList<>()
+//                q.add();
+//                q.remove()//to remove the head of queue
+//                q.peek() // to view the head of th queue
+
+
 //        Integer.MIN_VALUE
 
 //        String.valueOf(i)
