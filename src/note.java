@@ -16,7 +16,7 @@ public class note {
 //            replaces all occurrences of "a" to "b"
 //
 //        charAt(i)
-//
+//        S.toUpperCase()
 //        int nums []={-1,0,3,5,9,12};
 //        Int num = input.nextInt();
 //
@@ -42,6 +42,11 @@ public class note {
 //                q.add();
 //                q.remove()//to remove the head of queue
 //                q.peek() // to view the head of th queue
+//        StringBuilder
+//                StringBuilder sb  = new StringBuilder();
+//                sb.toString()
+//                sb.insert(i,'-');
+//                sb.append(S);
 
 
 //        Integer.MIN_VALUE
