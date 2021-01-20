@@ -1,4 +1,4 @@
-import java.util.List;
+
 
 public class LinkedListCycle141 {
     public static void main(String[] args) {
@@ -10,11 +10,11 @@ public class LinkedListCycle141 {
         head2.next = head3;
         head3.next = head4;
         head4.next = head2;
-        while(head!=null){
-            System.out.println(head.val);
-            head=head.next;
-        }
-//        hasCycle(head);
+//        while(head!=null){
+//            System.out.println(head.val);
+//            head=head.next;
+//        }
+        System.out.println(hasCycle(head));
     }
 
     public static boolean hasCycle(ListNode head) {
