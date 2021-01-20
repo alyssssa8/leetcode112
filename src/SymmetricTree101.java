@@ -33,7 +33,7 @@ public class SymmetricTree101 {
         tree2.left = tree4;
         tree2.right = tree5;
 
-       TreeNode tree1 = new TreeNode();
+        TreeNode tree1 = new TreeNode();
         tree1.val = 1;
         tree1.left = tree2;
         tree1.right = tree3;
