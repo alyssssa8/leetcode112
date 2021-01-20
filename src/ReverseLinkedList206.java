@@ -1,6 +1,29 @@
+import java.util.LinkedList;
+
 public class ReverseLinkedList206 {
 
     public static void main(String[] args) {
+//        LinkedList head = new LinkedList();
+//        head.
+//
+//        LinkedList<Integer> head = new LinkedList<Integer>();
+//        head.add(1);
+//        head.add(2);
+//        head.add(3);
+//        head.add(4);
+//        head.add(5);
+
+
+//        List//        LinkedList head = new LinkedList();
+//        head.
+//
+//        LinkedList<Integer> head = new LinkedList<Integer>();
+//        head.add(1);
+//        head.add(2);
+//        head.add(3);
+//        head.add(4);
+//        head.add(5);
+
         ListNode head5 = new ListNode(5);
         ListNode head4 = new ListNode(4);
         ListNode head3 = new ListNode(3);
@@ -19,8 +42,9 @@ public class ReverseLinkedList206 {
     }
     public static ListNode reverseList(ListNode head) {
         ListNode pre = null;
+        ListNode temp;
         while(head!=null){
-            ListNode temp = head.next;
+            temp= head.next;
             head.next = pre;
             pre = head;
             head = temp;

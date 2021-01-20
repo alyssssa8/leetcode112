@@ -32,6 +32,7 @@ public class note {
 //          Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 //          map.put(nums[i], i);  // key and value
 //          map.containsKey(target - nums[i])
+//          map.get(s1.charAt(i)
 
 //        set:
 //          Set<Integer> set = new HashSet<>();
