@@ -1,18 +1,7 @@
-import javax.swing.tree.TreeNode;
+
 
 public class SymmetricTree101 {
-    public static class  TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
+
     public static void main(String[] args) {
         TreeNode tree7 = new TreeNode();
         tree7.val =3;
@@ -41,8 +30,8 @@ public class SymmetricTree101 {
 
         TreeNode tree2 = new TreeNode();
         tree2.val = 2;
-        tree2.left = tree3;
-        tree2.right = tree4;
+        tree2.left = tree4;
+        tree2.right = tree5;
 
        TreeNode tree1 = new TreeNode();
         tree1.val = 1;
