@@ -61,5 +61,10 @@ public class note {
 
 //        String.valueOf(i)
 //              Returns the string representation of the int argument.
+
+//        length:
+//            int[] nums-->length
+//            String s = "sdkfjsk"-->length()
+
     }
 }
