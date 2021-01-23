@@ -10,9 +10,19 @@ public class FindAllNumbersDisappearedInAnArray448 {
 
 
     public static List<Integer> findDisappearedNumbers(int[] nums) {
+        int m = 0;
+        for (int i = 0; i < nums.length; i++){
+            m = Math.abs(nums[i]) - 1;
+            if(nums[m] >0){
+                nums[m] =-nums[m];
+            }
+        }
         List<Integer> res = new ArrayList<>();
-        res.add(6);
-
+        for (int i = 0; i < nums.length;i++){
+            if (nums[i]>0){
+                res.add(i+1);
+            }
+        }
         return res;
     }
 }
