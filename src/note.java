@@ -7,6 +7,13 @@ public class note {
 
 
     public static void main(String[] args) {
+        RemoveDuplicatesFromSortedArray26 sss  = new RemoveDuplicatesFromSortedArray26();
+        int[] nums ={0,0,1,1,1,2,2,3,3,4};
+        sss.removeDuplicates2(nums);
+        RemoveDuplicatesFromSortedArray26.removeDuplicates(nums);
+//        test.removeDuplicates();
+
+
 //        indexOf()
 //            method returns the position of the first occurrence of a specified
 //            value in a string. This method returns -1 if the value to search for never occurs.
