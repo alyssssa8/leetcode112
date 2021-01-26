@@ -1,7 +1,7 @@
 public class Static {
     // static
     static int a = 10;
-    static int b;
+    static int b = 20;
 
     // static block
     static {
@@ -10,6 +10,29 @@ public class Static {
         System.out.println("2 " + b);
         b = a * 4;
     }
+
+    static void m1()
+    {
+        a = 20;
+        System.out.println("from m1");
+
+        // Cannot make a static reference to the non-static field b
+        b = 10; // compilation error
+
+        // Cannot make a static reference to the
+        // non-static method m2() from the type Test
+        m2(); // compilation error
+
+        // Cannot use super in a static context
+        //System.out.println(super.a); // compiler error
+    }
+
+    // instance method
+    static void m2()
+    {
+        System.out.println("from m2");
+    }
+
     public static void main(String[] args) {
         int[] nums ={0,0,1,1,1,2,2,3,3,4};
 
@@ -17,35 +40,8 @@ public class Static {
         a +=10;
         System.out.println("a2: "+a);
         System.out.println(b);
-        removeDuplicates(nums);
-//        static must have static value.
-//        removeDuplicates2(nums);
+
     }
 
-    public static int removeDuplicates(int[] nums) {
-
-        System.out.println("3 " + a);
-        System.out.println("4 " + b);
-
-        int result = 0;
-        for(int i =1; i < nums.length; i++){
-            if (nums[result] !=nums[i]){
-                result++;
-                nums[result]=nums[i];
-            }
-        }
-        return result;
-    }
-
-    public int removeDuplicates2(int[] nums) {
-        int result = 0;
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[result] != nums[i]) {
-                result++;
-                nums[result] = nums[i];
-            }
-        }
-        return result;
-    }
 
 }

@@ -18,12 +18,20 @@ public class note {
 //            method returns the position of the first occurrence of a specified
 //            value in a string. This method returns -1 if the value to search for never occurs.
 //            Note: The indexOf() method is case sensitive
-//
+//            String myStr = "Hello planet earth, you are a great planet.";
+//            System.out.println(myStr.indexOf("planet"));
+//            output: 6//index
+//            Find the first occurrence of the letter "e" in a string, starting the search at position 5:
+//            System.out.println(myStr.indexOf("e", 5));
+
 //        replaceAll()
 //            replaces all occurrences of "a" to "b"
+//            String s1 = str1.replaceAll("\\s", "");
 //
 //        charAt(i)
+
 //        S.toUpperCase()
+
 //        int nums []={-1,0,3,5,9,12};
 //        Int num = input.nextInt();
 //
@@ -40,7 +48,15 @@ public class note {
 //          map.put(nums[i], i);  // key and value
 //          map.containsKey(target - nums[i])
 //          map.get(s1.charAt(i)
+//          getKey
+//          getValue
 
+//        ConcurrentHashMap
+//           put
+//           putIfAbsent
+//           remove
+//                getKey
+//                getValue
 //        set:
 //          Set<Integer> set = new HashSet<>();
 //          set.add(nums1[i]);
@@ -57,6 +73,7 @@ public class note {
 //                q.add();
 //                q.remove()//to remove the head of queue
 //                q.peek() // to view the head of th queue
+
 //        StringBuilder
 //                StringBuilder sb  = new StringBuilder();
 //                sb.toString()
