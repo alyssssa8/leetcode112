@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class note {
 
@@ -73,6 +70,25 @@ public class note {
 //                q.add();
 //                q.remove()//to remove the head of queue
 //                q.peek() // to view the head of th queue
+//                q.poll()
+//                q.offer()
+//                      The Queue interface specifies that add() will throw an IllegalStateException
+//                      if no space is currently available (and otherwise return true)
+//                      while offer() will return false if the element couldn't be inserted due to
+//                      capacity restrictions.
+
+//                      public class ThePoint {
+//                          int x;
+//                          int y;
+//                          public ThePoint(int x, int y){
+//                               this.x = x;
+//                               this.y  = y;
+//                          }
+//                      }
+//              Queue<ThePoint> myQueue = new ArrayDeque<ThePoint>();  //FloodFill733
+//              myQueue.add(new ThePoint(sr, sc));
+//
+
 
 //        StringBuilder
 //                StringBuilder sb  = new StringBuilder();
