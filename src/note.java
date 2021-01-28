@@ -47,6 +47,23 @@ public class note {
 //          map.get(s1.charAt(i)
 //          getKey
 //          getValue
+//          first.putIfAbsent(A[i], i);
+//          count.put(A[i], count.getOrDefault(A[i], 0) + 1);
+//              The getOrDefault(Object key, V defaultValue) method of Map interface,
+//              implemented by HashMap class is used to get the value mapped with specified key.
+//              If no value is mapped with the provided key then the default value is returned.
+
+//          HashMap<String, Integer> map
+//                   = new HashMap<>();
+//          map.put("a", 100);
+//          map.put("b", 200);
+//          map.put("c", 300);
+//          map.put("d", 400);
+//
+//        // print map details
+//        System.out.println("HashMap: "
+//                + map.toString());
+
 
 //        ConcurrentHashMap
 //           put
