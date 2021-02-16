@@ -10,6 +10,9 @@ public class note {
         RemoveDuplicatesFromSortedArray26.removeDuplicates(nums);
 //        test.removeDuplicates();
 
+//        https://www.w3schools.com/java/
+
+
 
 //        indexOf()
 //            method returns the position of the first occurrence of a specified
