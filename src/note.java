@@ -31,6 +31,8 @@ public class note {
 //        charAt(i)
 
 //        S.toUpperCase()
+//        S.toCharArray()
+
 
 //        int nums []={-1,0,3,5,9,12};
 //        Int num = input.nextInt();
@@ -41,8 +43,8 @@ public class note {
 //        int array [] = new int[num];
 //
 //        System.out.printf("Factorial of %d = %d", num, factorial);
-
-
+//        toCharArray
+//            The java string toCharArray() method converts the given string into a sequence of characters. The returned array length is equal to the length of the string.
 //        map:
 //          Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 //          map.put(nums[i], i);  // key and value
@@ -50,6 +52,9 @@ public class note {
 //          map.get(s1.charAt(i)
 //          getKey
 //          getValue
+//          map.put(c, map.getOrDefault(c, 0) + 1);
+//          for (char key : map.keySet())
+//          int frequency = map.get(key);
 //          first.putIfAbsent(A[i], i);
 //          count.put(A[i], count.getOrDefault(A[i], 0) + 1);
 //              The getOrDefault(Object key, V defaultValue) method of Map interface,
@@ -66,6 +71,7 @@ public class note {
 //        // print map details
 //        System.out.println("HashMap: "
 //                + map.toString());
+
 
 
 //        ConcurrentHashMap
